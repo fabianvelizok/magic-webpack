@@ -5,12 +5,14 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "build:external": "webpack --config ./external/webpack.config.js"
+    "build:external": "webpack --config ./external/webpack.config.js",
+    "build:css": "webpack --config ./css-style-loader/webpack.config.js"
   },
-  "author":
-    "Fabián Veliz <velizfabianhoracio@gmail.com> (https://twitter.com/fabianvelizok)",
+  "author": "Fabián Veliz <velizfabianhoracio@gmail.com> (https://twitter.com/fabianvelizok)",
   "license": "MIT",
   "devDependencies": {
+    "css-loader": "^0.28.10",
+    "style-loader": "^0.20.2",
     "webpack": "^3.8.1"
   }
 }
