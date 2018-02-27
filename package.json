@@ -1,0 +1,11 @@
+{
+  "name": "platziwebpack",
+  "version": "0.1.0",
+  "description": "A webpack project",
+  "main": "index.js",
+  "author": "Fabián Veliz <velizfabianhoracio@gmail.com> (https://twitter.com/fabianvelizok)",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^3.8.1"
+  }
+}
