@@ -1,5 +1,7 @@
-import './index.css';
-import platziImage from './platzi.png';
+import '../css/index.css';
+
+import platziImage from '../images/platzi.png';
+
 import message from './message';
 import render from './render';
 import makeImage from './makeImage';
