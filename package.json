@@ -10,7 +10,7 @@
     "build:extract:css": "webpack --config ./plugin-extract-text/webpack.config.js",
     "build:multiple": "webpack --config ./multiple-entry-points/webpack.config.js",
     "build:dev": "webpack-dev-server --config ./webpack-dev-server/webpack.config.js",
-    "build:babel": "webpack-dev-server --config ./babel-loader/webpack.config.js"
+    "build:babel": "webpack-dev-server --config ./babel/webpack.config.js"
   },
   "author": "Fabián Veliz <velizfabianhoracio@gmail.com> (https://twitter.com/fabianvelizok)",
   "license": "MIT",
