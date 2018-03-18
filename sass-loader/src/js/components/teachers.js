@@ -1,6 +1,7 @@
 // React
 import React, { Component } from 'react';
 import Teacher from './teacher';
+import '../../css/teachers.scss'
 
 class Teachers extends Component {
   render() {
