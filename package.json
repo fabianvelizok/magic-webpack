@@ -17,7 +17,8 @@
     "build:react": "webpack-dev-server --config ./react/webpack.config.js",
     "build:sass": "webpack-dev-server --config ./sass-loader/webpack.config.js",
     "build:postcss": "webpack-dev-server --config ./postcss-loader/webpack.config.js",
-    "build:prevent": "webpack --config ./prevent-duplicated-code/webpack.config.js"
+    "build:prevent": "webpack --config ./prevent-duplicated-code/webpack.config.js",
+    "build:vendor": "webpack --config ./vendor/webpack.config.js"
   },
   "author": "Fabián Veliz <velizfabianhoracio@gmail.com> (https://twitter.com/fabianvelizok)",
   "license": "MIT",
