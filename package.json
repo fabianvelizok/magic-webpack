@@ -15,7 +15,8 @@
     "build:fonts": "webpack-dev-server --config ./url-loader-fonts/webpack.config.js",
     "build:json": "webpack-dev-server --config ./json-loader/webpack.config.js",
     "build:react": "webpack-dev-server --config ./react/webpack.config.js",
-    "build:sass": "webpack-dev-server --config ./sass-loader/webpack.config.js"
+    "build:sass": "webpack-dev-server --config ./sass-loader/webpack.config.js",
+    "build:postcss": "webpack-dev-server --config ./postcss-loader/webpack.config.js"
   },
   "author": "Fabián Veliz <velizfabianhoracio@gmail.com> (https://twitter.com/fabianvelizok)",
   "license": "MIT",
@@ -30,6 +31,9 @@
     "file-loader": "^1.1.10",
     "json-loader": "^0.5.7",
     "node-sass": "^4.7.2",
+    "postcss": "^6.0.20",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-loader": "^2.1.2",
     "sass-loader": "^6.0.7",
     "style-loader": "^0.20.3",
     "url-loader": "^0.6.2",
