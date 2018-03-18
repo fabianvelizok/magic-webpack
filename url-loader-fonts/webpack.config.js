@@ -17,7 +17,12 @@ module.exports = {
       },
       {
         test: /\.js$/,
-        loader: 'babel-loader'
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: ['env', 'react']
+          }
+        }
       },
       {
         test: /\.(png|woff|woff2|eot|ttf|svg)$/,
